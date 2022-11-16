@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: T12 Piazza Panic
+nav:
+ - Home : 'index.md'
+ - Overveiw : 'overview.md'
+ - Requirment: 'requirments.md'
