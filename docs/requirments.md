@@ -9,19 +9,10 @@ serving an impatient and demanding crowd!
 This is a single player game that requires managing staff around the a busy kitchen, who will be preparing
 various dishes requested by customers coming to the Piazza Resturent Restaurant.
 
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 0.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p>
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
 # Requirements
 
 
-# User Requirements
+## User Requirements
 
 
 <table>
@@ -104,7 +95,7 @@ various dishes requested by customers coming to the Piazza Resturent Restaurant.
 # 
 
 
-# Functional Requirements
+## Functional Requirements
 
 Cooldown after switching cooks?
 
@@ -311,7 +302,7 @@ How do cooks get money?
 # 
 
 
-# Non-Functional Requirements
+## Non-Functional Requirements
 
 
 
