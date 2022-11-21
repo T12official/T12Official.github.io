@@ -1,3 +1,3 @@
-# Welcome to T12 Website
+# Welcome to the T12 Website
 
-<https://github.com/Ben3122/T12officialCookingPizza>
+[Main Repo](https://github.com/Ben3122/T12officialCookingPizza)
