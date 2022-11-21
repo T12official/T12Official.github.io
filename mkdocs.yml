@@ -1,4 +1,6 @@
 site_name: T12 Piazza Panic
+theme:
+  name: material
 nav:
  - Home : 'index.md'
  - Resources : 'resources.md'
