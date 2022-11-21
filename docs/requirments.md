@@ -1,12 +1,3 @@
-It seems to be a quiet day at the Piazza: there aren't that many students and staff around 
-this time of the year, so most of the kitchen staff are away on leave - you only have three
-cooks. Suddenly, a crowd bursts into the restaurant: it's an open day, and they all want to eat
-at once! Make the most of your kitchen and your staff, and face up to the challenge of
-serving an impatient and demanding crowd!
-
-This is a single player game that requires managing staff around the a busy kitchen, who will be preparing
-various dishes requested by customers coming to the Piazza Resturent Restaurant.
-
 # Requirements
 
 ## User Requirements
@@ -65,14 +56,18 @@ various dishes requested by customers coming to the Piazza Resturent Restaurant.
 * What sort of movement? speed, direction?
 * Can you stack raw items?
 
-| ID                     | Description                                                  | User Requirements | Fit Criteria                                    |
-| ---------------------- | ------------------------------------------------------------ | ----------------- | ----------------------------------------------- |
-| NFR\_MOVE\_ACCESSIBLE  | The game should have basic controls that are easy to learn.  | UR\_MOVE          | All ages and abilities should be able to move   |
-| NFR\_CONTROL\_RESPONDS | The response time should be real-time and instant.           | UR\_MOVE          | The controls should have instance >0.01 seconds |
-| NFR\_STACKING\_ITEMS   | The items should be able to be stacked in any order.         | UR\_RECIPES       | Prepped ingredients need to be present          |
-| NFR\_COOKING\_TIME     | Chopping and cooking should be completed in reasonable time. | UR\_STATIONS      | Takes >5 seconds                                |
-| NFR\_CUSTOMER\_DEMAND  | Must allow for enough time to complete recipe                | UR\_CUSTOMER      | Demand >60 seconds                              |
-| NFR\_SWITCH            | Switching must be fast and responsive                        | UR\_SWITCH        | Only slight cooldown time 1 second              |
+| ID                     | Description                                                                            | User Requirements   | Fit Criteria                                                                                    |
+| ---------------------- | -------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
+| NFR\_MOVE\_ACCESSIBLE  | The game should have basic controls that are easy to learn.                            | UR\_MOVE            | All ages and abilities should be able to move                                                   |
+| NFR\_CONTROL\_RESPONDS | The response time should be real-time and instant.                                     | UR\_MOVE            | The controls should have instance >0.01 seconds                                                 |
+| NFR\_STACKING\_ITEMS   | The items should be able to be stacked in any order.                                   | UR\_RECIPES         | Prepped ingredients need to be present                                                          |
+| NFR\_COOKING\_TIME     | Chopping and cooking should be completed in reasonable time.                           | UR\_STATIONS        | Takes >5 seconds                                                                                |
+| NFR\_CUSTOMER\_DEMAND  | Must allow for enough time to complete recipe                                          | UR\_CUSTOMER        | Demand >60 seconds                                                                              |
+| NFR\_SWITCH            | Switching must be fast and responsive                                                  | UR\_SWITCH          | Only slight cooldown time 1 second                                                              |
+| NFR\_WAITING           | The game must provide an easy way of seeing recipe requests and time left to complete. | UR\_CUSTOMER        | Have a bar telling to customers have ordered and how long the cooks have to complete the order. |
+| NFR\_ TUTORIAL         | Game should provide a training environment where user can learn to play the game       | UR\_MOVE            | Have a tutorial mode allowing new users to learn the game.                                      |
+| NFR\_AUDIO\_CUES       | Game should have audio cues to action that a relevant and recognisable                 | UR\_COOKS\_INTERACT | Audio will help the game be engaging and confirm action has been performed                      |
+| NFR\_ENGAMENT          | Games should be fun and make it easy to play.                                          | UR\_GAMEMODES       | Game should be engaging for all users                                                           |
 
 # Constraint Requirements
 
