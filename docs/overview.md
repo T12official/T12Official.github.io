@@ -8,3 +8,4 @@ This is a single player game that requires managing staff around the a busy kitc
 various dishes requested by customers coming to the Piazza Resturent Restaurant.
 
 # Project Planning
+![Overview](img/T12 Offical Project Overview.png)
