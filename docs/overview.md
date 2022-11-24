@@ -11,7 +11,7 @@ various dishes requested by customers coming to the Piazza Resturent Restaurant.
 
 This is are current project overview
 
-![Project Overview](img/T12%20Offical%20Project%20Overview.png)
+![Project Overview](img/T12%20Project%20Breakdown.png)
 
 ## Project Gantt Chart
 

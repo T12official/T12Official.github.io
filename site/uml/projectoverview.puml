@@ -1,0 +1,19 @@
+@startgantt T12_Project_Gantt_Chart 
+printscale weekly
+project starts the 9th of november 2021
+[Website (Everyone?)] lasts 12 weeks
+[Risk assessment and mitigation  (Ben)] as [TASK3] lasts 1 weeks
+[Method selection and planning 20 marks (Billy, Ollie)] as [TASK1] lasts 1 weeks
+[Requirements (Billy, Ben, Ollie)] as [TASK2] lasts 14 days
+[Architecture (tbc)] as [TASK4] lasts 14 days
+[Holiday] as [BREAK] lasts 4 weeks
+[Implementation] as [TASK5] lasts 14 days
+
+
+
+
+[TASK1] -> [TASK2]
+[TASK2] -> [TASK4]
+[TASK4] -> [BREAK]
+[BREAK] -> [TASK5]
+@endgantt
