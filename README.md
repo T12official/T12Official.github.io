@@ -1,4 +1,8 @@
-# Instructions
+# https://billybrudenell.github.io
+
+All commits to `main` will automatically deploy to the site.
+
+## Alternate Instructions
 
 To make commit changes to docs use
 ```shell
