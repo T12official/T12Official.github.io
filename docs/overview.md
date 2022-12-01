@@ -19,3 +19,7 @@ This is are current project overview
 
 ## Elicting Requirement Gantt Chart
 ![Elicting Requirement Gantt](img/req_gantt.png)
+
+
+## Architecture Gantt Chart
+![Architecture Gantt Chart](img/Architecture_Breakdown.png)
