@@ -6,3 +6,4 @@ nav:
  - Resources : 'resources.md'
  - Overview : 'overview.md'
  - Requirment: 'requirments.md'
+ - Architecture: 'architecture.md'
