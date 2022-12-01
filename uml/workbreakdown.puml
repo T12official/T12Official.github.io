@@ -1,0 +1,27 @@
+@startwbs T12_Project_Breakdown
+* Piazza Panic
+** Website
+*** Requirements PDF
+*** Risk Management PDF
+*** Architecture PDF
+** Requirments 
+*** Low-fidelity prototype
+*** Non-Functional Requiremnt
+**** Interveiw 1
+*** Functional Requirement
+**** Write up Product Brief
+*** Contraint Requirement
+**** Write up Product Breif
+** Method Selection
+*** Risk Management
+*** Resource Allocation
+**** Meeting Organisation
+*** Project Planning
+** Architecture
+*** libGDX
+*** Classes
+*** Object Patterns
+*** Steorotypes
+** Implementation 
+@endwbs
+

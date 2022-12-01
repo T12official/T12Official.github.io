@@ -1,0 +1,10 @@
+@startgantt
+[Elicting Requirements] lasts 15 days
+[Examine existing systems] lasts 2 days
+[User Requiremts] lasts 1 day
+then [Functional Requirements] lasts 5 days
+then [Non-Functional Requirements (1 week)] lasts 1 week
+then [Interveiw with Stackholders] lasts 1 day
+then [Revise Requirement] lasts 1 day
+[Risk Management] lasts 1 week and 4 days
+@endgantt
