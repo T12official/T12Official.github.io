@@ -5,3 +5,9 @@
 
 ## Entity relationship diagram
 ![Class diagram](img/T12%20Entity%20Relationship%20Diagram.drawio.png)
+
+## Sequence diagram
+![Class diagram](img/T12%20Sequence%20diagram.png)
+
+## Behavioural diagram
+![Class diagram](img/T12%20Behavioural%20Diagram.png)
