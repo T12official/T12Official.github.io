@@ -1,0 +1,107 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class Chef {
+  + touchUp(int, int, int, int): boolean
+  + mouseMoved(int, int): boolean
+  + keyUp(int): boolean
+  + scrolled(float, float): boolean
+  + draw(Batch): void
+  + keyDown(int): boolean
+  + touchDown(int, int, int, int): boolean
+  + update(float): void
+  + touchDragged(int, int, int): boolean
+  + keyTyped(char): boolean
+   standing: boolean
+}
+class Customer {
+  + receiveOrder(Dish): boolean
+}
+enum Direction << enumeration >> {
+  + valueOf(String): Direction
+  + values(): Direction[]
+}
+class Dish {
+  + addIngridientClass(Ingredient): void
+  + addIngredients(String): void
+   ingredients: List<String>
+   currentIngridients: List<Ingredient>
+}
+class Ingredient {
+  + draw(Batch): void
+   type: Type
+}
+class Level {
+  + resume(): void
+  + resize(int, int): void
+  + pause(): void
+  + readAssetFile(String): void
+  + dispose(): void
+  + nextCustomer(): void
+  + getMapTileLayer(int): TiledMapTileLayer
+  + initialiseLevel(): void
+  + render(float): void
+  + show(): void
+  + hide(): void
+   timeToNextCustomer: long
+   spriteData: Map<String, List<Double>>
+   sprites: Sprite[]
+   minIdleTime: long
+   timeElapsedMilliSeconds: long
+   timeSinceLastIO: long
+}
+class Overlay {
+  + removeRow(int, int): void
+  + setPos(float, float): void
+  + setSize(float, float): void
+  + setTableBackgroundColor(float, float, float, float): void
+  + addText(String): void
+   upTable: Stage
+   table: Table
+}
+enum State << enumeration >> {
+  + values(): State[]
+  + valueOf(String): State
+}
+class Station {
+  + draw(Batch): void
+  + touchDown(int, int, int, int): boolean
+  + touchDragged(int, int, int): boolean
+  + keyUp(int): boolean
+  + keyDown(int): boolean
+  + keyTyped(char): boolean
+  + touchUp(int, int, int, int): boolean
+  + mouseMoved(int, int): boolean
+  + scrolled(float, float): boolean
+   sprites: Sprite[]
+   spriteData: Map<String, List<Double>>
+}
+class T12Piazza {
+  + resize(int, int): void
+  + render(): void
+  + pause(): void
+  + dispose(): void
+  + create(): void
+  + resume(): void
+}
+enum Type << enumeration >> {
+  + values(): Type[]
+  + valueOf(String): Type
+}
+
+Chef        -[#595959,dashed]->  Dish       : "«create»"
+Chef        -[#595959,dashed]->  Ingredient : "«create»"
+Direction   +-[#820000,plain]-  Chef       
+Level       -[#595959,dashed]->  Chef       : "«create»"
+Level       -[#595959,dashed]->  Customer   : "«create»"
+Level       -[#595959,dashed]->  Dish       : "«create»"
+Level       -[#595959,dashed]->  Ingredient : "«create»"
+Level       -[#595959,dashed]->  Overlay    : "«create»"
+Level       -[#595959,dashed]->  Station    : "«create»"
+State       +-[#820000,plain]-  Chef       
+T12Piazza   -[#595959,dashed]->  Level      : "«create»"
+Type        +-[#820000,plain]-  Ingredient 
+@enduml

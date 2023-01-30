@@ -11,3 +11,6 @@
 
 ## Behavioural diagram
 ![Class diagram](img/T12%20Behavioural%20Diagram.png)
+
+## Revised class diagram
+![Class diagram](img/RevisedClassDiagram.png)
