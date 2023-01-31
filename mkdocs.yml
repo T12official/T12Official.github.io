@@ -4,7 +4,7 @@ theme:
 nav:
  - Home : 'index.md'
  - Resources : 'resources.md'
- - Method selection and planning : 'overview.md'
- - Requirment: 'requirments.md'
+ - Method Selection and Planning : 'overview.md'
+ - Requirements: 'requirements.md'
  - Architecture: 'architecture.md'
 
