@@ -1,5 +1,9 @@
 # Project architecture
 
+## Architecture PDF
+
+[Architecture Document](pdf/Arch1.pdf)
+
 ## Initial class diagram
 ![Class diagram](img/classDiagrams.png)
 

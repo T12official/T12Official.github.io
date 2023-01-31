@@ -1,9 +1,7 @@
 # Requirements
 
+[Requirements Specification Document](pdf/Req1.pdf)
 
-# Research Resources
-
-We conducted Interviews with stakeholders, then using this as well as the requirements document we came up with the following requirements tables for the project.
 
 
 # User Requirements
