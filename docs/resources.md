@@ -11,6 +11,8 @@ This is T12.
 
 [OpenGameArt](https://opengameart.org/latest) - A place where you can get free game art.
 
+[Piskel](https://www.piskelapp.com/) - A free site that allows user to create sprites and pixelart. 
+
 [Iterative development](https://en.wikipedia.org/wiki/Iterative_and_incremental_development) & [PDD](https://www.geeksforgeeks.org/overview-of-plan-driven-development-pdd/) - Different perspectives and approaches to program development.
 
 [diagrams.net](https://app.diagrams.net/) - Used to create both flow charts and class diagrams.
