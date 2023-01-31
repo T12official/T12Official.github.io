@@ -14,9 +14,9 @@ various dishes requested by customers coming to the Piazza Resturent Restaurant.
 
 # Documentation
 
-- [Requirements Specification](pdf/Req1.pdf)
+- [Requirements specification](pdf/Req1.pdf)
 - [Method selection and planning](pdf/Plan1.pdf)
 - [Risk assessment and mitigation](pdf/Risk1.pdf)
 - [Architecture](pdf/Arch1.pdf)
-
+- [Licencing and non-implemented requiremnts](pdf/Impl1.pdf)
 
