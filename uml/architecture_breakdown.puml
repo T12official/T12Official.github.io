@@ -1,0 +1,17 @@
+@startgantt Architecture_Breakdown
+[Use cases] as [TASK0] lasts 3 days
+[Class Diagram] as [TASK1] lasts 3 days
+[Sequence Diagram] as [TASK2] lasts 1 weeks
+[Component Diagram] as [TASK3] lasts 4 days
+[Relationship diagram] as [TASK4] lasts 4 days
+[Behavioural diagrams] as [TASK5] lasts 4 weeks
+[Sequence diagrams] as [TASK6] lasts 1 weeks
+
+[TASK0] -> [TASK1]
+[TASK1] -> [TASK2]
+[TASK1] -> [TASK4]
+[TASK0] -> [TASK6]
+
+[TASK1] -> [TASK3]
+
+@endgantt
