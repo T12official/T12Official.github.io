@@ -2,7 +2,7 @@
 
 [Method selection and planning document](pdf/Plan1.pdf)
 
-This is are current project overview
+This is our current project overview.
 
 ![Project Overview](img/T12%20Project%20Breakdown.png)
 
@@ -12,7 +12,6 @@ This is are current project overview
 
 ## Elicting Requirement Gantt Chart
 ![Elicting Requirement Gantt](img/req_gantt.png)
-
 
 ## Architecture Gantt Chart
 ![Architecture Gantt Chart](img/Architecture_Breakdown.png)
