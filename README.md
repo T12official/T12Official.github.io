@@ -1,6 +1,6 @@
 # https://t12official.github.io
 
-All commits to `main` will automatically deploy to the site.
+All commits to `main` will automatically deploy to the site. Work in the `/docs` folder.
 
 ## Alternate Instructions
 
